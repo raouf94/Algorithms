@@ -54,7 +54,7 @@ In general, determining if there are even any solutions to SUBSET-SUM is NP-hard
 
 
 ## _Sorting Algorithm_
-Sorting is the process of arranging the elements either in ascending (or) descending order.
+A sorting algorithm is an algorithm that puts elements of a list in a certain order, usually in numerical or lexicographical order. Sorting is often an important first step in algorithms that solves more complex problems. There are a large number of sorting algorithms, each with their own benefits and costs. Below, we will focus on some of the more famous sorting algorithms..
 
 ## Quick sort algorithm
 It is a divide and conquer algorithm.
@@ -69,17 +69,13 @@ It is a divide and conquer algorithm.
 Merge Sort is one of the most popular sorting algorithms that is based on the principle of Divide and Conquer Algorithm.
 
 Here, a problem is divided into multiple sub-problems. Each sub-problem is solved individually. Finally, sub-problems are combined to form the final solution.
-Using the Divide and Conquer technique, we divide a problem into subproblems. When the solution to each subproblem is ready, we 'combine' the results from the subproblems to solve the main problem. 
-
-[Link](https://drive.google.com/file/d/1s-f75h__FONqEpxlOGT9qFWoqJnTxr__/view?usp=sharing) to tutorial video.
+Using the Divide and Conquer technique, we divide a problem into subproblems. When the solution to each subproblem is ready, we 'combine' the results from the subproblems to solve the main problem. [Link](https://drive.google.com/file/d/1s-f75h__FONqEpxlOGT9qFWoqJnTxr__/view?usp=sharing) to tutorial video.
 
 ## Tim sort algorithm
 The timsort is also a comparison-based sorting technique but it is different from other commonly used sorting methods.
 Timsort can be defined as a **hybrid sorting technique** as it combines both **insertion sort an merge sort** to sort a set of elements.
 
-The array is divided into a number of blocks which is known as the run. Now, this run will be sorted using the insertion sort technique. After sorting each run, the run will now be marged using the **'merge sort'** technique to get the sorted array. It is not an **in-place sorting** algorithm as for merging it requires extra memory space. As it combines two different sorting techniques together the performance is better than bubble or selection sort. 
-
-[Link](https://drive.google.com/file/d/1N3W-8g5NlYZZLyh26BK8ZEPkvexp6nz3/view?usp=sharing) to tutorial video.
+The array is divided into a number of blocks which is known as the run. Now, this run will be sorted using the insertion sort technique. After sorting each run, the run will now be marged using the **'merge sort'** technique to get the sorted array. It is not an **in-place sorting** algorithm as for merging it requires extra memory space. As it combines two different sorting techniques together the performance is better than bubble or selection sort. [Link](https://drive.google.com/file/d/1N3W-8g5NlYZZLyh26BK8ZEPkvexp6nz3/view?usp=sharing) to tutorial video.
 
 ## Heap sort algorithm
 The easiest way to sort using binary trees is quicksort. In most cases, quicksort requires O(nlogn) computation time, but if you are unlucky (the sorted value is included in the input), it will take O(n^2) computation time ). Heapsort fills this gap.
@@ -97,17 +93,14 @@ If there are N elements to sort, the bubble sort does N-1 to traverse the array.
 
 In each loop, successive pairs of elements are compared and swapped if necessary. 
 If the pair has the same value or is in ascending order, we keep it.
-
 [Link](https://drive.google.com/file/d/1T6bzq8aaGhV6YWhJy-mlqTFacFSH27Bu/view?usp=sharing) to tutorial video.
 
 ## Insertion sort algorithm
-We can create a C program to sort the elements of an array using insertion sort. The insertion sort algorithm is only useful for small items because it takes longer to sort a large number of items.
-
+We can create a C program to sort the elements of an array using insertion sort. The insertion sort algorithm is only useful for small items because it takes longer to sort a large number of items. 
 [Link](https://drive.google.com/file/d/1aID1z7SeVFsAG8hDjx07uTCNS1iOMWw_/view?usp=sharing) to tutorial video.
 
 ## Selection sort algorithm
 In the selection sort algorithm, we look for the smallest element and put it in the right place. We swap the current element with the next smallest element.
-
 [Link](https://drive.google.com/file/d/1CVKEFjia1338NNFKygnAXldAabPU5uIu/view?usp=sharing) to tutorial video.
 
 ## Tree sort algorithm
@@ -125,7 +118,6 @@ The properties of binary search tree is completely make use of tree sort algorit
 
 ## Shell sort algorithm
 The Shell sort in C is used to sorts the array by sort the pair of elements far apart from each other, then successively reduces the gap between the elements to be sorted. The Shell sort is the version of the insertion sort algorithm. In insertion sort, the element moves one position ahead to insert an element at its correct position, whereas the shell sort exchanges the far elements. If an element has to move far ahead many moves are required. The shell sort starts by sorting the pair of elements that are far apart from each other and successively interval between them. It can transfer some out-of-place elements into the correct place faster than a simple nearest-neighbor exchange if it starts with far apart elements. Shell sort is not a stable sorting algorithm since it ignores the items that fall in between the intervals. The worst-case running time complexity of the shell sort is O(n2) and the best-case running time complexity is O(nlog(n)).
-
 [Link](https://drive.google.com/file/d/1JxfHeCPk3KtJVxDHN-wr67BvIdWXawB1/view?usp=sharing) to tutorial video.
 
 ## Bucket sort algorithm
@@ -142,14 +134,12 @@ Sorting by bucket or sort by compartment also called Bucket Sort in English is a
     - It is not an in-place sorting algorithm, because extra space is needed to sort the buckets.
 
 The complexity of the best-case and average-case bucket sort algorithm is O(n + k); and in the worst case, the complexity of the bucket sort algorithm is O(n^2), where n is the number of elements in the array.   Bucket sort is commonly used with floating point values and when the input is evenly distributed over a range.
-
 [Link](https://drive.google.com/file/d/1cUD7CuasNShygn4wVdvbK3BTdYQZvzHr/view?usp=sharing) to tutorial video.
 
 ## Radix sort algorithm
 The Radix sort is a non-comparative sorting algorithm. The Radix sort algorithm is the most preferred algorithm for the unsorted list. 
 
 It sorts the elements by initially grouping the individual digits of the same place value. The idea of Radix Sort is to do digit by digit sort starting from *least significant digit(LSD)* to the *most significant digit(MSD)*, according to their increasing/decreasing order. Radix sort is a small method that is used several times when alphabetizing an oversized list of names. Specifically, the list of names is initially sorted according to the first letter of every name, that is, the names are organized in twenty-six categories.
-
 [Link](https://drive.google.com/file/d/1zH_ZDQMetJqek2nxYunx_nSlxTK28k7Z/view?usp=sharing) to tutorial video.
 
 ## Counting sort algorithm
@@ -158,12 +148,10 @@ Counting sort is an integer-based sorting algorithm for sorting an array whose k
 Unlike other sorting algorithms like *Insertion Sort, Selection Sort, Merge Sort, Quick Sort, etc.*, counting sort is not a comparison sort. It uses key values as indices into an array.
 
 The time complexity of counting sort is O(n + k), where n is the input size and k is the input range. Sorting by counting can be very space-efficient when the range of keys k is significantly less than the total number of elements n, but when the variation of keys is significantly greater than the total number of elements k >> n, sorting by counting consumes a lot of space.
-
 [Link](https://drive.google.com/file/d/1ITGGoZ-dBXeBT7ldm4JPV-GRGxhFFAYK/view?usp=sharing) to tutorial video.
 
 ## Cube sort algorithm
 Given an array arr[] of N integers, the task is to sort the array according to the cubes of each element. The idea is to use the Comparator function with an inbuilt sort function() to sort the array according to the cubes of its elements. 
-
 [Link](https://drive.google.com/file/d/1mkDKQtJf8S-LFi0meBlq_GNmuQyrIw37/view?usp=sharing) to tutorial.
 
 
